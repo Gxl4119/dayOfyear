@@ -1,7 +1,7 @@
 int year,mooth,day;
 int num = 0;
 int mooths[12]={31,28,31,30,31,30,31,31,30,31,30,31,31};
-scanf("please input year,mooth and day:%d %d %d");
+scanf("please input year,mooth and day:%d %d %d"，&year,&mooth,&day);
 if( year %400 == 0 || ( year %4 == 0 && year %100 != 0 ))
 {
     mooths[1]++;
